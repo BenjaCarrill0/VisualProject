@@ -1,9 +1,9 @@
 from PyQt6.QtWidgets import QApplication
 import sys
-from frontend.gamewindow import GameWindow
+from frontend.setupwindow import SetupWindow
 
 if __name__ == "__main__":
     app = QApplication([])
-    window = GameWindow()
+    window = SetupWindow()
     window.show()
     sys.exit(app.exec())
